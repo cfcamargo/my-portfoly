@@ -19,8 +19,8 @@ export function Header() {
 
   return (
     <HeaderNav>
-        <div className="menu">
-            <a href="">
+        <div className="navbar-menu-brand">
+            <a href="#">
               <img src={Logo} alt="Logo Cristian Camargo" />
             </a>
         </div>

@@ -16,6 +16,11 @@ export const HeaderNav = styled.nav`
     display: none;
   }
 
+  .navbar-menu-brand{
+    img{
+      height: 90%;
+    }
+  }
 
   .navbar-menu{
     list-style: none;
@@ -38,41 +43,52 @@ export const HeaderNav = styled.nav`
 
   @media screen and (max-width: 768px){
     
+
     .navbar-menu{
+      transform: translateY(100%);
       display:flex; 
       flex-direction: column;
       justify-content: center;
       align-items: center;
       gap: 4rem;
 
-      transform: translateY(100%);
 
       width: 100%;
       height: 100vh;
 
+
       list-style: none;
 
-      transition: .3s ease-in;
+      transition: .5s ease-in;
 
       position: fixed;
       top: 0;
       left: 0;
 
-            
       background: linear-gradient(168.28deg, rgba(31, 34, 53, 0.96) 26.95%, rgba(255, 74, 87, 0.96) 99.52%);
 
+      li{
+        opacity: 0;
+      }
+
       &.active{
-        transform: translateY(0%);
-            
+      transform: translateY(0%);
+      visibility: visible;
 
+      
+      
+      
+      li{
+        opacity: 1;
+      }
 
-.close-icon{
-  display: block;
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
+      .close-icon{
+        display: block;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
 
-  cursor: pointer;
+      cursor: pointer;
 }
 
 
