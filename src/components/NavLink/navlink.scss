@@ -1,0 +1,13 @@
+a{
+  font: 1rem 'Freedoka One', sans-serif;
+
+  text-decoration: none;
+  color: white;
+
+  transition: color .3s ease;
+
+  &:hover{
+    color: #FF4A57;
+  }
+
+}
