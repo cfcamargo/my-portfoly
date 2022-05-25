@@ -51,6 +51,8 @@ export const HeaderNav = styled.nav`
       justify-content: center;
       align-items: center;
       gap: 4rem;
+      z-index: 9999999999;
+
 
 
       width: 100%;
@@ -74,7 +76,7 @@ export const HeaderNav = styled.nav`
       &.active{
       transform: translateY(0%);
       visibility: visible;
-
+      
       
       
       
@@ -89,11 +91,11 @@ export const HeaderNav = styled.nav`
         right: 1rem;
 
       cursor: pointer;
-}
+      }
 
 
 
-} 
+      } 
 
     }
 

@@ -5,7 +5,6 @@ export const BannerContainer = styled.section`
     width: 100%;
     height: calc(100vh - 8vh);
     background-color: #24263B;
-  
 
 `
 
@@ -14,7 +13,7 @@ export const ContentBanner = styled.div`
   
   width: 95%;
   max-width: 1220px;
-  height: 100%;
+  height: 80vh;
 
   margin: 0 auto;
 
@@ -27,7 +26,7 @@ export const ContentBanner = styled.div`
   align-items: center;
 
   .content{
-    width: 70%;
+    width: 80%;
     
     h2{
       font: 3rem 'Fredoka One', sans-serif;
@@ -63,7 +62,49 @@ export const ContentBanner = styled.div`
     justify-content: flex-end;
   }
 
-  
+
+    @media screen and (max-width: 768px){
+
+      grid-template-columns: 1fr;
+      justify-content: center;
+      align-items: center;
+
+     
+      .content{
+          width: 100%;
+          display: grid;
+          gap:2rem;
+          
+          h2{
+            font-size: 2rem;
+            text-align: center;
+            
+          }
+
+          p{
+            
+            font-size: 1rem;
+            
+            text-align: center;
+            width: 90%;
+          }
+
+          a{
+            padding: .7rem 3rem;
+            border: 2px solid #FF4A57;
+            border-radius: 5px;
+            transition: .3s ease-in;
+            margin: 0 auto;
+
+            &:hover{
+              background-color: #FF4A57;
+              color: white;
+            }
+
+          }
+
+  }
+
+}
 
 `
-

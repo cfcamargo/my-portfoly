@@ -2,6 +2,7 @@ import { BannerContainer, ContentBanner } from "./styles";
 import Lottie from 'react-lottie';
 import animationData from '../../assets/lotties/banner.json'
 import Typing from "react-typing-animation";
+import { SocialLinks } from "../SocialLinks";
 
 
 export function Banner() {
@@ -37,6 +38,7 @@ export function Banner() {
         </div>
         
       </ContentBanner>
+      <SocialLinks />
     </BannerContainer>
   )
 }
