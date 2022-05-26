@@ -28,7 +28,7 @@ export const ContentBanner = styled.div`
   .content{
     width: 80%;
     
-    h2{
+    h1{
       font: 3rem 'Fredoka One', sans-serif;
       color: white;
       
@@ -75,7 +75,7 @@ export const ContentBanner = styled.div`
           display: grid;
           gap:2rem;
           
-          h2{
+          h1{
             font-size: 2rem;
             text-align: center;
             

@@ -21,9 +21,9 @@ export function Banner() {
     <BannerContainer>
       <ContentBanner>
         <div className="content">
-          <h2>Olá! Eu sou o Cristian Camargo</h2>
+          <h1>Olá! Eu sou o Cristian Camargo</h1>
       
-      <Typing loop='true'>
+      <Typing loop={true}>
           <p>Desenvolvedor front end, apaixonado por tecnologia, e amante de um bom café.</p>
           <Typing.Backspace count={90} delay={3000}/>
       </Typing>
