@@ -9,11 +9,29 @@ export const CardContent = styled.div`
 
       h4{
             color: white;
+            font-size: 1.4rem;
+            font-family: 'Fredoka One', sans-serif;
+            text-align: center;
       }
 
       .interessItems{
-            display: flex;
-            flex-wrap: wrap;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
             gap: 4rem;
+            justify-content: flex-start;
+           
+      }
+
+
+      @media screen and(max-width: 768px){
+
+            .interessItems{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 4rem;
+            justify-content: flex-start;
+           
+      }
+            
       }
 `
