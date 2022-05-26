@@ -23,13 +23,13 @@ export const CardContent = styled.div`
       }
 
 
-      @media screen and(max-width: 768px){
+      @media screen and (max-width: 768px){
 
-            .interessItems{
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 4rem;
-            justify-content: flex-start;
+       .interessItems{
+            
+              grid-template-columns: 1fr 1fr;
+              gap: 1rem;
+             
            
       }
             

@@ -11,7 +11,7 @@ import { CardContent } from './styles';
 export function InteressCard(){
   return (
     <CardContent>
-        <h4>Interesses: </h4>
+        <h4>Hobyes: </h4>
         <div className="interessItems">
           <InteressItem icon={musicImg} title='Música'/>
           <InteressItem icon={gamesImg} title='Games'/>
