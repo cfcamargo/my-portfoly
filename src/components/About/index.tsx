@@ -1,5 +1,6 @@
 import { Container } from "./styles";
 import meImg from '../../assets/images/me.svg';
+import { AboutMeCards } from "./AboutMeCards";
 
 export function About() {
   return (
@@ -7,7 +8,7 @@ export function About() {
       <section id="about">
         <Container>
           <div className="cover">
-            <img src={meImg} alt="" />
+            {/* <img src={meImg} alt="" /> */}
           </div>
 
 
@@ -36,7 +37,9 @@ export function About() {
               </li>
             </ul>
 
-            
+            <AboutMeCards />
+
+              
           </div>
 
 

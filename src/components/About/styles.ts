@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import bgContentImg from '../../assets/images/me.svg';
 
 export const Container = styled.div`
   max-width: 1220px;
@@ -10,12 +11,15 @@ export const Container = styled.div`
 
   padding: 8rem 0;
 
-  margin: 0 auto;
+  margin: 0rem auto;
 
 
-  .cover img{
-    height: 100%;
+  .cover {
+      background-image: url(${bgContentImg});
+      background-size: cover;
+      background-position: center;
   }
+  
 
   .content{
     display: flex;
@@ -56,5 +60,20 @@ export const Container = styled.div`
         }
       }
     }
+  }
+
+
+  @media screen and (max-width: 768px){
+    grid-template-columns: 1fr;
+
+    padding: 6rem 1rem;
+
+  
+
+
+    .cover{
+      min-height: 800px;
+    }
+
   }
 `
