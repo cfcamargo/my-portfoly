@@ -11,6 +11,7 @@ export const Container = styled.section`
 export const Header = styled.div`
 
     text-align: center;
+    width: 80%;
     max-width: 800px;
     margin: 0 auto;
 
@@ -61,6 +62,10 @@ export const SkillsBody = styled.div`
       
     }
     
+  }
+
+  @media screen and (max-width: 768px){
+    grid-template-columns: 1fr;
   }
 
 `

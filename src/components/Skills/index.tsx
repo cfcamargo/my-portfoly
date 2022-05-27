@@ -1,6 +1,6 @@
 import { Container, Header, SkillsBody } from "./style";
 import SkillBar from 'react-skillbars';
-import skillsImg from './../../assets/images/skills.svg'
+import './bars.scss'
 
 import Lottie from 'react-lottie';
 import animationData from '../../assets/lotties/skills2.json'
@@ -40,7 +40,7 @@ export function Skills() {
 
   return (
     <Container>
-      <Header>
+      <Header id="skills">
         <h3>Minhas <span>Skills</span></h3>
         <p>Tenho me especializado na área de front end, com foco no React.
           Com base sólida em HTML, CSS e Java Script, posso te ajudar a tirar seu projeto ou site do papel.
