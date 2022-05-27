@@ -5,6 +5,7 @@ export const BannerContainer = styled.section`
     width: 100%;
     height: calc(100vh - 8vh);
     background-color: #24263B;
+    border-bottom: 2px solid #FF4A57;
 
 `
 
@@ -14,6 +15,7 @@ export const ContentBanner = styled.div`
   width: 95%;
   max-width: 1220px;
   height: 80vh;
+  
 
   margin: 0 auto;
 

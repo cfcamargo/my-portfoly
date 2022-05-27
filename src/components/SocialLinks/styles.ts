@@ -8,5 +8,15 @@ export const SocialLinksWrapper = styled.div`
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    padding-bottom: 2rem;
    
+    a{
+        transition: .3s ease-in;
+
+        &:hover{
+            filter: brightness(.8);
+            transform: scale(1.2);
+        }
+    }
+
 `
