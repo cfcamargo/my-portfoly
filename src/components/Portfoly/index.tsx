@@ -5,6 +5,8 @@ import fidgetCoverImg from '../../assets/images/fidgetCover.svg'
 import geofarmCoverImg from '../../assets/images/geofarmCover.svg'
 import geoterraCoverImg from '../../assets/images/geoterraCover.svg'
 import idealCoverImg from '../../assets/images/idealCover.svg'
+import beautySalonCoverImg from '../../assets/images/beutysalonCover.svg'
+import portfolyCoverImg from '../../assets/images/portfolyCover.svg'
 
 
 export function Portfoly() {
@@ -31,8 +33,20 @@ export function Portfoly() {
     {
       cover: geoterraCoverImg,
       title: 'Geoterra Agricultura',
-      description: 'Este projeto foi para uma empresa empresa de agricultura, onde pude utilizar Sliders, com bibliotecas prontas, O objetivo era criar uma landing page de apresentação para a empresa, mostrando todos os serviços, e como contratar estes serviços. ',
+      description: 'Este projeto foi para uma empresa empresa de agricultura, onde pude utilizar Sliders com bibliotecas prontas, O objetivo era criar uma landing page de apresentação para a empresa, mostrando todos os serviços, e como contratar estes serviços. ',
       tecnologias: ['html', 'css', 'js', 'git']
+    },
+    {
+      cover: beautySalonCoverImg,
+      title: 'BeuatySalon Landing Page',
+      description: 'Este projeto foi realizado durante a NLW Togueter da Rocketseat, o projeto consiste em uma página de um salão de beleza. Pra mim foi muito interessante, pois aprendi alguns conceitos legais, principalmente de acessibilidade, e aprendi a usar bibliotecas de ícones, e até a criar essas bibliotecas usando o IconMon ',
+      tecnologias: ['html', 'css', 'js', 'git']
+    },
+    {
+      cover: portfolyCoverImg,
+      title: 'Meu Portfolio',
+      description: 'Deixo esse projeto aqui, como meu primeiro projeto profissional, utilizando React com TypeScript, Utilizando todos os conceitos que aprendi ate aqui de React, como props, iteraçao em listas, styled components, e tipagem para o projeto. ',
+      tecnologias: ['html', 'css', 'js', 'git', 'react', 'ts', 'styledC']
     },
 
 
