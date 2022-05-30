@@ -5,7 +5,7 @@ import fidgetCoverImg from '../../assets/images/fidgetCover.svg'
 import geofarmCoverImg from '../../assets/images/geofarmCover.png'
 import geoterraCoverImg from '../../assets/images/geoterraCover.png'
 import idealCoverImg from '../../assets/images/idealCover.png'
-import beautySalonCoverImg from '../../assets/images/beutysalonCover.png'
+import beautySalonCoverImg from '../../assets/images/beautysalonCover.png'
 import portfolyCoverImg from '../../assets/images/portfolyCover.svg'
 
 
