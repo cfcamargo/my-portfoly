@@ -2,10 +2,10 @@ import { PortfolyItemCard } from "./PortfolyItemCard";
 import { Container, PortfolyBody, PortfolyHeader } from "./styles";
 
 import fidgetCoverImg from '../../assets/images/fidgetCover.svg'
-import geofarmCoverImg from '../../assets/images/geofarmCover.svg'
-import geoterraCoverImg from '../../assets/images/geoterraCover.svg'
-import idealCoverImg from '../../assets/images/idealCover.svg'
-import beautySalonCoverImg from '../../assets/images/beutysalonCover.svg'
+import geofarmCoverImg from '../../assets/images/geofarmCover.png'
+import geoterraCoverImg from '../../assets/images/geoterraCover.png'
+import idealCoverImg from '../../assets/images/idealCover.png'
+import beautySalonCoverImg from '../../assets/images/beutysalonCover.png'
 import portfolyCoverImg from '../../assets/images/portfolyCover.svg'
 
 
