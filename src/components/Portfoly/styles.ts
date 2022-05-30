@@ -23,6 +23,17 @@ export const PortfolyHeader = styled.div`
           color: var(--color-primary);
         }
       }
+
+      p{
+          text-align: center;
+          color: white;
+          
+          font-family: 'Fredoka', sans-serif;
+          max-width: 800px;
+          width: 80%;
+
+          margin: 2rem auto;
+        }
 `
 
 

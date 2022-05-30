@@ -45,6 +45,10 @@ export function Portfoly() {
     <Container>
       <PortfolyHeader id="portfoly">
         <h3>Meu <span>Portfólio</span></h3>
+
+        <p>Aqui deixo alguns de meus últimos projetos, Projetos maiores e de freelancers que consegui entregar. Deixo também com cada projeto as tecnologias que usei,
+          e os links para acesso ao Projeto online, e ao repositório.
+        </p>
       </PortfolyHeader>
 
       <PortfolyBody>

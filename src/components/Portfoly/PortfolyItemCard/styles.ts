@@ -57,6 +57,7 @@ export const Container = styled.div`
           gap: .5rem;
           margin-top: 1rem;
           flex-wrap: wrap;
+          align-items: center;
         }
       }
     }
