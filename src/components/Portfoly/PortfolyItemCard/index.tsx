@@ -2,7 +2,7 @@ import { Container } from "./styles";
 
 import htmlIcon from '../../../assets/icons/html5Icon.svg'
 import cssIcon from '../../../assets/icons/cssIcon.svg'
-import gitIcon from '../../../assets/icons/gitIcon.svg'
+import gitIcon from '../../../assets/icons/giticon.svg'
 import jsIcon from '../../../assets/icons/jsIcon.svg'
 import styledcIcon from '../../../assets/icons/styledcIcon.svg'
 import reactIcon from '../../../assets/icons/reactIcon.svg'
