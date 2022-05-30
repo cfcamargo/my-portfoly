@@ -31,7 +31,7 @@ export const Container = styled.div`
       color: white;
 
       span{
-        color: #FF4A57;
+        color: var(--color-primary);
       }
     }
 
@@ -52,7 +52,7 @@ export const Container = styled.div`
       li{
         font-size: 1rem;
         font-family: 'Fredoka One';
-        color: #FF4A57;
+        color: var(--color-primary);
 
         span{
           color: white;

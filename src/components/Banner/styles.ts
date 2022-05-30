@@ -4,8 +4,8 @@ export const BannerContainer = styled.section`
 
     width: 100%;
     height: calc(100vh - 8vh);
-    background-color: #24263B;
-    border-bottom: 2px solid #FF4A57;
+    background-color: var(--color-dark-blue);
+    border-bottom: 2px solid var(--color-primary);
 
 `
 

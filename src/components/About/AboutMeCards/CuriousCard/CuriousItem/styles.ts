@@ -7,7 +7,7 @@ export const Content = styled.p`
     margin: 0 !important;
 
     span{
-      color : #FF4A57;
+      color : var(--color-primary);
       margin-right: .5rem;
 
     }

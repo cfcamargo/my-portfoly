@@ -2,6 +2,14 @@
   --skillBarTextColor: #ffffff;
   --skillBarBgColor: #FF4A57;
 
+
+  --color-primary : #FF4A57;
+  --color-bg-blue : #1F2235;
+  --color-dark-blue : #24263B;
+  --color-ligth : #fff
+
+  font-size: 62.5%;
+
 }
 
 
@@ -14,10 +22,7 @@
 }
 
 body{
-  background-color: #1F2235;
-  font-size: 62.5%;
-
-  
+  background-color: var(--color-bg-blue);
 }
 
 
@@ -25,4 +30,10 @@ body{
   width: 100%;
   max-width: 1220px;
   margin: 0 auto;
+}
+
+.bg{
+  width: 100%;
+  background-color: var(--color-dark-blue);
+  padding: 3rem 0;
 }
