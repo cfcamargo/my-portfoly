@@ -47,10 +47,9 @@ export const SkillsBody = styled.div`
   grid-template-columns: 1fr 1.5fr;
 
   .cover{
-    img{
+   
       width: 80%;
-      margin: auto;
-    }
+     
   }
 
 
@@ -67,6 +66,11 @@ export const SkillsBody = styled.div`
 
   @media screen and (max-width: 768px){
     grid-template-columns: 1fr;
+
+    .cover{
+      width: 100%; 
+    }
+  
   }
 
 `

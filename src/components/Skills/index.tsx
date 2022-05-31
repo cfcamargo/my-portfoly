@@ -48,11 +48,11 @@ export function Skills() {
       <SkillsBody>
 
         <div className="cover">
-          {/* <img src={skillsImg} alt="Figura de um Homem sentado em um comutador com balões com simbolos de tecnoogias fron end em volta" /> */
+          
            <Lottie 
            options={lootieSkillsOptions}
        />
-          }
+          
         </div>
 
         <div className="skills-bar">

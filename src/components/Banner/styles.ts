@@ -105,7 +105,12 @@ export const ContentBanner = styled.div`
 
           }
 
+   }
+
+   .cover{
+    width: 100%;
   }
+
 
 }
 
