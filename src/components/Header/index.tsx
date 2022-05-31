@@ -29,8 +29,8 @@ export function Header() {
           <li onClick={()=> setMenuIsActive(false)}><NavLink to="#" title='Home'/></li>
           <li onClick={()=> setMenuIsActive(false)}><NavLink to="#about" title='Sobre'/></li>
           <li onClick={()=> setMenuIsActive(false)}><NavLink to="#skills" title='Skills'/></li>
-          <li onClick={()=> setMenuIsActive(false)}><NavLink to="#portfoly" title='Portfolio'/></li>
-          <li onClick={()=> setMenuIsActive(false)}><NavLink to="#contact" title='Contact'/></li>
+          <li onClick={()=> setMenuIsActive(false)}><NavLink to="#portfoly" title='Portfólio'/></li>
+          <li onClick={()=> setMenuIsActive(false)}><NavLink to="#contact" title='Contato'/></li>
         </ul>
 
         <div className="toogle" >

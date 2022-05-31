@@ -56,7 +56,7 @@ export function PortfolyItemCard({ project }: PortfolyItemCardProps) {
         </div>
 
         <div className="project-tecnologys">
-          <h4>Tecnologias Utilizadas</h4>
+          <h4>Tecnologias Utilizadas:</h4>
           <div className="tecnologys-icons">
             {
               tecnologiasUsed.map((tecnologia, index) => (

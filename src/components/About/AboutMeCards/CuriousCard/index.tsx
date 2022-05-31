@@ -11,7 +11,7 @@ export function CuriousCard(){
           <CuriousItem title="Bebidas" content="Café, Cerveja e Vinho"/>
           <CuriousItem title="Generos Musicais" content="Sertanejo, Blues e Lofi"/>
           <CuriousItem title="Comida" content="Churrasco"/>
-          <CuriousItem title="Jogo Favorito" content="Super Mario"/>
+          <CuriousItem title="Jogo Favorito" content="Super Mário Odissey"/>
           <CuriousItem title="Time do Coração" content="Palmeiras"/>
         </div>
 

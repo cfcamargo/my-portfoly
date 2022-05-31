@@ -74,7 +74,7 @@ export function Portfoly() {
         <h3>Meu <span>Portfólio</span></h3>
 
         <p>Aqui deixo alguns de meus últimos projetos, Projetos maiores e alguns freelancers. Deixo também em cada projeto as tecnologias que usei,
-          e os links para acesso ao Projeto online, e o repositório. 
+          e os links para acesso ao Projeto online, e também acesso ao repositório do projeto. 
         </p>
       </PortfolyHeader>
 

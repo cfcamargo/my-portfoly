@@ -35,7 +35,7 @@ export function Contact() {
 
         <div className="contact-header">
           <h3>Se interessou pelo meu <span>Trabalho ?</span></h3>
-          <p>Deixe uma mensagem ou entre em contato comigo.</p>
+          <p>Deixe uma mensagem ou entre em contato comigo <br/>através dos canais de contato</p>
         </div>
 
         <div className="contact-form">
@@ -68,9 +68,9 @@ export function Contact() {
         <a href="mailto:contato@camargodev.com.br"><img src={mailIcon} alt="Icone de uma carta, simbolizando email" /> contato@camargodev.com.br</a>
 
         <div className="social-icons-links">
-          <a href=""><img src={githubIcon} alt="Icone do github" /></a>
-          <a href=""><img src={linkedinIcon} alt="Icone do github" /></a>
-          <a href=""><img src={instagramIcon} alt="Icone do github" /></a>
+          <a href="https://github.com/cfcamargo"><img src={githubIcon} alt="Icone do github" /></a>
+          <a href="https://www.linkedin.com/in/cristian-camargo-4504291b4"><img src={linkedinIcon} alt="Icone do github" /></a>
+          <a href="https://www.instagram.com/sr.fcamargo"><img src={instagramIcon} alt="Icone do github" /></a>
         </div>
 
       </ContactLinks>

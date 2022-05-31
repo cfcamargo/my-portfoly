@@ -25,7 +25,7 @@ export function Banner() {
           <p>Desenvolvedor Front End, apaixonado por tecnologia, e amante de um bom café.</p>
           
 
-          <a href="#portfoly">Meu Portfolio</a>
+          <a href="#portfoly">Meu Portfólio</a>
         </div>
 
         <div className="cover">
