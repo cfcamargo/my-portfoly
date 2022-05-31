@@ -15,11 +15,14 @@ interface PortfolyItemCardProps {
     title: string
     description: string
     tecnologias: string[]
+    to: string;
+    repo: string;
   }
 }
 
 
 export function PortfolyItemCard({ project }: PortfolyItemCardProps) {
+
 
 
   const tecnologIcons = {
@@ -34,6 +37,9 @@ export function PortfolyItemCard({ project }: PortfolyItemCardProps) {
   } as any
 
   const tecnologiasUsed = project.tecnologias
+
+  const repoExist = project.repo
+  const linkExist = project.to
 
 
 
@@ -52,18 +58,35 @@ export function PortfolyItemCard({ project }: PortfolyItemCardProps) {
         <div className="project-tecnologys">
           <h4>Tecnologias Utilizadas</h4>
           <div className="tecnologys-icons">
-          {
-            tecnologiasUsed.map((tecnologia, index) => (
-              <div key={index}>
-                <img src={tecnologIcons[tecnologia] as string} alt={`Icone do ${tecnologia}`} />
-              </div>
-            ))
-          }
+            {
+              tecnologiasUsed.map((tecnologia, index) => (
+                <div key={index}>
+                  <img src={tecnologIcons[tecnologia] as string} alt={`Icone do ${tecnologia}`} />
+                </div>
+              ))
+            }
           </div>
+
         </div>
 
 
+
+            {(project.to.length > 0 || project.repo.length > 0) && (
+                <div className="buttons-links">
+                {project.to.length > 0 && (
+                  <a href={project.to} className="LinkRepoButton" target='_blank'>Link do Projeto</a>
+                )}
+    
+                {project.repo.length > 0 && (
+                  <a href={project.repo} className="LinkRepoButton" target='_blank'>Repositório</a>
+                )}
+              </div>
+            )}
+        
+ 
       </div>
+
+
     </Container>
   )
 }

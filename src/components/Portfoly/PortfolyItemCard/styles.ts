@@ -1,3 +1,4 @@
+import { Header } from './../../Skills/style';
 import styled from "styled-components";
 
 export const Container = styled.div`
@@ -13,6 +14,14 @@ export const Container = styled.div`
     -moz-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
 
+    position: relative;
+
+   
+
+
+
+    
+
 
     .cover{
       width: 100%;
@@ -26,6 +35,7 @@ export const Container = styled.div`
       display: flex;
       flex-direction: column;
       gap: 1rem;
+     
 
       .project-description{
         display:grid;
@@ -56,11 +66,118 @@ export const Container = styled.div`
           display: flex;
           gap: .5rem;
           margin-top: 1rem;
+          margin-bottom: 2rem;
           flex-wrap: wrap;
           align-items: center;
         }
       }
+
+
+      .buttons-links{
+        padding: 2rem 0;
+        display: grid;
+        gap: 2rem;
+        
+
+
+
+        .LinkRepoButton{
+          border: 1px solid var(--color-primary);
+          width: 100%;
+          height: 50px;
+          display: grid;
+
+          justify-content: center;
+          align-items: center;
+          color: var(--color-primary);
+
+          transition: all .3s ease-in;
+
+          &:hover{
+            background-color: var(--color-primary);
+            color: white;
+          }
+
+        }
+      }
+
+
+
+
     }
 
+    @media screen and (min-width: 768px){
+
+
+      .buttons-links{
+        width: 100%;
+        height: 0;
+        background-color: var(--color-bg-blue);
+        opacity: .98;
+        position: absolute;
+
+       
+        bottom: 0;
+        left: 0;
+
+        padding: 2rem 4rem;
+
+
+        transition: height .3s ease-in;
+
+        display: none;
+
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap : 1rem;
+      
+    
+
+        
+
+        .LinkRepoButton{
+          border: 1px solid var(--color-primary);
+          padding: .7rem 2rem;
+          width: 200px;
+          background-color: none;
+
+          display: none;
+          justify-content: center;
+          align-items: center;
+
+          color: var(--color-primary);
+          
+          opacity: 0;
+
+          transition: 3s all ease-in;
+
+          cursor: pointer;
+
+          &:hover{
+            background-color: var(--color-primary);
+            color: white;
+          }
+          
+        }
+
+
+      }
+    }
+
+    &:hover{
+      .buttons-links{
+        height: 100%;
+      
+
+        .LinkRepoButton{
+          opacity: 1;
+        }
+      
+      }
+    }
+    
+
+  
 
 `
