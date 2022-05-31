@@ -16,12 +16,6 @@ export const Container = styled.div`
 
     position: relative;
 
-   
-
-
-
-    
-
 
     .cover{
       width: 100%;
@@ -109,6 +103,8 @@ export const Container = styled.div`
     @media screen and (min-width: 768px){
 
 
+
+
       .buttons-links{
         width: 100%;
         height: 0;
@@ -150,13 +146,15 @@ export const Container = styled.div`
           
           opacity: 0;
 
-          transition: 3s all ease-in;
+          transition: .3s background-color ease-in;
+        
 
           cursor: pointer;
 
           &:hover{
             background-color: var(--color-primary);
             color: white;
+            opacity: 1;
           }
           
         }
@@ -166,6 +164,8 @@ export const Container = styled.div`
     }
 
     &:hover{
+
+
       .buttons-links{
         height: 100%;
       
@@ -175,6 +175,7 @@ export const Container = styled.div`
         }
       
       }
+      
     }
     
 

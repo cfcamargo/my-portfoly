@@ -1,7 +1,6 @@
 import { BannerContainer, ContentBanner } from "./styles";
 import Lottie from 'react-lottie';
 import animationData from '../../assets/lotties/banner.json'
-import Typing from "react-typing-animation";
 import { SocialLinks } from "../SocialLinks";
 
 
@@ -23,10 +22,8 @@ export function Banner() {
         <div className="content">
           <h1>Olá! Eu sou o Cristian Camargo</h1>
       
-      <Typing loop={true}>
-          <p>Desenvolvedor front end, apaixonado por tecnologia, e amante de um bom café.</p>
-          <Typing.Backspace count={90} delay={3000}/>
-      </Typing>
+          <p>Desenvolvedor Front End, apaixonado por tecnologia, e amante de um bom café.</p>
+          
 
           <a href="#portfoly">Meu Portfolio</a>
         </div>

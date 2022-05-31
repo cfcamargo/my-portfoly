@@ -68,9 +68,9 @@ export function Portfoly() {
 
 
   return (
-    <div className="bg">
+    <div className="bg" id="portfoly">
     <Container>
-      <PortfolyHeader id="portfoly">
+      <PortfolyHeader >
         <h3>Meu <span>Portfólio</span></h3>
 
         <p>Aqui deixo alguns de meus últimos projetos, Projetos maiores e alguns freelancers. Deixo também em cada projeto as tecnologias que usei,

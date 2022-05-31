@@ -39,8 +39,8 @@ export function Skills() {
 
 
   return (
-    <Container>
-      <Header id="skills">
+    <Container id="skills">
+      <Header>
         <h3>Minhas <span>Skills</span></h3>
         <p>Tenho me especializado na área de Front End, com foco no React.
           Com base sólida em HTML, CSS e Java Script, posso te ajudar a tirar seu projeto ou site do papel.
