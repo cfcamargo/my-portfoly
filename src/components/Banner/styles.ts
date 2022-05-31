@@ -61,7 +61,8 @@ export const ContentBanner = styled.div`
 
   .cover{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
   }
 
 
@@ -109,6 +110,7 @@ export const ContentBanner = styled.div`
 
    .cover{
     width: 100%;
+    height: 400px;
   }
 
 

@@ -14,7 +14,7 @@ export function Banner() {
 
 
   return (
-    <BannerContainer>
+    <BannerContainer id="banner">
       <ContentBanner>
         <div className="content">
           <h1>Olá! Eu sou o Cristian Camargo</h1>

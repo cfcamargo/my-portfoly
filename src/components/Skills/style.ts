@@ -48,7 +48,8 @@ export const SkillsBody = styled.div`
 
   .cover{
    
-      width: 80%;
+      width: 100%;
+      height: auto;
      
   }
 
@@ -69,6 +70,8 @@ export const SkillsBody = styled.div`
 
     .cover{
       width: 100%; 
+      padding: 0;
+      margin: 0;
     }
   
   }

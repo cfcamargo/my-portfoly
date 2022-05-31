@@ -11,6 +11,7 @@ export function Skills() {
     loop: true,
     autoplay: true,
     animationData: animationData,
+    height: 'auto',
   };
 
 
@@ -47,10 +48,11 @@ export function Skills() {
 
       <SkillsBody>
 
-        <div className="cover">
+        <div className="skill-cover">
           
            <Lottie 
            options={lootieSkillsOptions}
+           
        />
           
         </div>
