@@ -13,7 +13,7 @@ export function Header() {
   const [menuIsActive, setMenuIsActive] = useState(false);
 
   return (
-    <HeaderNav>
+    <HeaderNav id='header'>
         <div className="navbar-menu-brand">
             <a href="#">
               <img src={Logo} alt="Logo Cristian Camargo" />

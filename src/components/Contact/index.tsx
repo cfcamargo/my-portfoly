@@ -43,12 +43,12 @@ export function Contact() {
 
             <div className="input-area">
               <label htmlFor="name">Nome:</label>
-              <input type="text" name="name" placeholder="Digite seu nome" required />
+              <input autoComplete='off' type="text" name="name" placeholder="Digite seu nome" required />
             </div>
 
             <div className="input-area">
               <label htmlFor="email">Email: </label>
-              <input type="email" name="email" required placeholder="Digite seu melhor e-mail" />
+              <input autoComplete="off" type="email" name="email" required placeholder="Digite seu melhor e-mail" />
             </div>
 
             <div className="input-text-area">

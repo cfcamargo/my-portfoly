@@ -65,6 +65,8 @@ export const Container = styled.section`
 
               background-color: var(--color-dark-blue);
 
+              
+
               input{
               
               width: 100%;

@@ -1,7 +1,8 @@
 import { About } from "../components/About";
+import { BackToTop } from "../components/BackToTop";
 import { Banner } from "../components/Banner";
 import { Contact } from "../components/Contact";
-import { Footer } from "../components/footer";
+import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
 import { Portfoly } from "../components/Portfoly";
 import { Skills } from "../components/Skills";
@@ -18,6 +19,7 @@ export function Home() {
       <Contact />
     </main>
       <Footer />
+      <BackToTop />
     </>
   )
 }

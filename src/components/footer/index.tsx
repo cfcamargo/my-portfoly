@@ -1,4 +1,5 @@
-import { Container } from "./styles"
+import { Container } from './styles'
+
 import logoIcon from '../../assets/icons/iconSimple.svg'
 import logo from '../../assets/icons/fullLogo.svg'
 
@@ -10,13 +11,21 @@ export function Footer(){
   
 
   return(
+    <>
+    <div className="divisor"/>
     <Container>
+        <div className="content">
         <div className="footer-description">
-          <p><img src={logoIcon} alt="" />Cristian Camargo - Todos os direitos reservados</p>
+          <p>Cristian Camargo - Todos os direitos reservados</p>
           <span>© Copyright {yearAtual}</span>
         </div>
-        
+        </div>
+
+        <div className="logo">
         <img src={logo} alt="Logo do cristian Camargo" />
+        </div>
     </Container>
+
+    </>
   )
 }

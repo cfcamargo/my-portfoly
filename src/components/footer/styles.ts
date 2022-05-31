@@ -4,26 +4,27 @@ export const Container = styled.footer`
 
 
 
-  width: 90%;
+  width: 100%;
   max-width: 1220px;
+  padding: 3rem 1rem;
+  
 
-  margin: 4rem auto 0;
+  margin: 2rem auto 0 auto;
 
-  display: grid;
-  justify-content: center;
-  align-items: center;
+  display: flex;
+  justify-content: space-between;
 
-  text-align: center;
+
+  .content{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+  }
 
   .footer-description{
     p{
     color: white;
-    font-family: 'Fredoka', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 30px;
-
+    font-family: 'Fredoka', sans-serif; 
     font-size: .7rem;
 
     img{
@@ -41,7 +42,7 @@ export const Container = styled.footer`
  
 
   img{
-    margin: 3rem auto;
+    width: 150px;
   }
 
 
