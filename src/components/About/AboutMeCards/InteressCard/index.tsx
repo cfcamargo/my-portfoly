@@ -15,7 +15,7 @@ export function InteressCard(){
         <div className="interessItems">
           <InteressItem icon={musicImg} title='Música'/>
           <InteressItem icon={gamesImg} title='Games'/>
-          <InteressItem icon={basquetImg} title='Basquet'/>
+          <InteressItem icon={basquetImg} title='Basquete'/>
           <InteressItem icon={planeImg} title='Viagem'/>
         </div>
     </CardContent>

@@ -16,7 +16,7 @@ export function About() {
             <h2>Sobre <span>Mim</span></h2>
 
             <p>Construindo sites e resolvendo bugs desde 2020,  hoje atuo na área de
-              desenvolvimento front end, e posso te ajudar com seu projeto.
+              desenvolvimento Front End, e posso te ajudar com seu projeto.
               Sou apaixonado por tecnologia, e desde meus 14 anos atuo na área de TI.
               Iniciei na área de manutenção e montagem de computadores em uma loja de informática da minha cidade.
               Meu primeiro contato com programação foi no ensino médio onde realizei um curso técnico no Instituto Federal de Mato Grosso do Sul, onde pude conhecer HTML, CSS E Javascript.

@@ -42,9 +42,9 @@ export function Skills() {
     <Container>
       <Header id="skills">
         <h3>Minhas <span>Skills</span></h3>
-        <p>Tenho me especializado na área de front end, com foco no React.
+        <p>Tenho me especializado na área de Front End, com foco no React.
           Com base sólida em HTML, CSS e Java Script, posso te ajudar a tirar seu projeto ou site do papel.
-          Tenho experiência também com desenvolvimento de interfaces utulizando figma, photoshop e coreldraw
+          Tenho experiência também com desenvolvimento de interfaces utulizando Figma, Photoshop e Coreldraw
         </p>
       </Header>
 
