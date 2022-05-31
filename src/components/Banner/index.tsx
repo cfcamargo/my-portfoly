@@ -10,9 +10,6 @@ export function Banner() {
     loop: true,
     autoplay: true,
     animationData: animationData,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
   };
 
 
@@ -29,7 +26,7 @@ export function Banner() {
         </div>
 
         <div className="cover">
-        <Lottie 
+        <Lottie
 	        options={lootieBannerOptions}
       />
         </div>

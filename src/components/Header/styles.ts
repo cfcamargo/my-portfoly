@@ -6,6 +6,7 @@ export const HeaderNav = styled.nav`
     max-width: 1220px;
     margin: 0 auto;
     height: 8vh;
+    padding: 1rem 0;
 
     display: grid;
     grid-template-columns: 1fr 2fr;
