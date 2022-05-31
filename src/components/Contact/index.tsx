@@ -1,12 +1,34 @@
 import { ContactLinks, Container } from "./styles";
+import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
 
 import mailIcon from '../../assets/icons/mail.svg'
 import githubIcon from '../../assets/icons/github.svg'
 import linkedinIcon from '../../assets/icons/linkedin.svg'
 import instagramIcon from '../../assets/icons/instagram.svg'
+import { useRef } from "react";
+
+import 'react-toastify/dist/ReactToastify.min.css'
+
 
 
 export function Contact() {
+
+  const form = useRef() as any;
+
+  function sendMail(e: any) {
+
+    e.preventDefault();
+
+    emailjs.sendForm('service_jzzgl5w', 'template_wtbcj8b', form.current, 'cKhmOgQEDWRTPft-J')
+      .then((result) => {
+        toast.success('Email Enviado com Sucesso', {theme: "dark"})
+        e.target.reset()
+      }, (error) => {
+        toast.error('Erro ao enviar email' , {theme: "dark"})
+      });
+  }
+
   return (
     <>
       <Container id="contact">
@@ -17,7 +39,7 @@ export function Contact() {
         </div>
 
         <div className="contact-form">
-          <form action="https://formsubmit.co/contato@camargodev.com.br" method="POST">
+          <form onSubmit={sendMail} ref={form}>
 
             <div className="input-area">
               <label htmlFor="name">Nome:</label>
@@ -34,11 +56,10 @@ export function Contact() {
               <textarea name="message" placeholder="Digite sua mensagem" id="message" />
             </div>
             <button type="submit">Enviar</button>
-
-
-            <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"></input>
           </form>
         </div>
+
+        <ToastContainer/>
 
       </Container>
 
@@ -47,9 +68,9 @@ export function Contact() {
         <a href="mailto:contato@camargodev.com.br"><img src={mailIcon} alt="Icone de uma carta, simbolizando email" /> contato@camargodev.com.br</a>
 
         <div className="social-icons-links">
-            <a href=""><img src={githubIcon} alt="Icone do github"/></a>
-            <a href=""><img src={linkedinIcon} alt="Icone do github"/></a>
-            <a href=""><img src={instagramIcon} alt="Icone do github"/></a>
+          <a href=""><img src={githubIcon} alt="Icone do github" /></a>
+          <a href=""><img src={linkedinIcon} alt="Icone do github" /></a>
+          <a href=""><img src={instagramIcon} alt="Icone do github" /></a>
         </div>
 
       </ContactLinks>
