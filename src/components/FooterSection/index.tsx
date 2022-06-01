@@ -1,9 +1,7 @@
 import { Container } from './styles'
-
-import logoIcon from '../../assets/icons/iconSimple.svg'
 import logo from '../../assets/icons/fullLogo.svg'
 
-export function Footer(){
+export function FooterSection(){
 
   const year = new Date()
   const yearAtual = year.getFullYear()
