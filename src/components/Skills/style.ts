@@ -46,7 +46,7 @@ export const SkillsBody = styled.div`
   display: grid;
   grid-template-columns: 1fr 1.5fr;
 
-  .cover{
+  .skill-cover{
    
       width: 100%;
       height: auto;
@@ -59,19 +59,17 @@ export const SkillsBody = styled.div`
     width: 90%;
     margin: auto;
     
-    .skills-container {
-      
-    }
-    
   }
 
   @media screen and (max-width: 768px){
     grid-template-columns: 1fr;
+    grid-template-rows: 400px 1.2fr;
 
-    .cover{
+    .skill-cover{
       width: 100%; 
-      padding: 0;
-      margin: 0;
+      height: 60%;
+      border: 1px solid red;
+     
     }
   
   }

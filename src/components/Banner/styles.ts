@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const BannerContainer = styled.section`
 
     width: 100%;
-    height: calc(100vh - 8vh);
+    height: calc(100vh - 9vh);
     background-color: var(--color-dark-blue);
     border-bottom: 2px solid var(--color-primary);
 
@@ -69,8 +69,10 @@ export const ContentBanner = styled.div`
     @media screen and (max-width: 768px){
 
       grid-template-columns: 1fr;
+      grid-template-rows: 1fr 400px ;
       justify-content: center;
       align-items: center;
+      align-content: center;
 
      
       .content{
@@ -79,15 +81,15 @@ export const ContentBanner = styled.div`
           gap:2rem;
           
           h1{
-            font-size: 2rem;
+            font-size: 1.2rem;
             text-align: center;
             
           }
 
           p{
             
-            font-size: 1rem;
-            margin: 0;
+            font-size: .7rem;
+            margin: 0 auto;
             
             text-align: center;
             width: 90%;
@@ -107,12 +109,19 @@ export const ContentBanner = styled.div`
 
           }
 
+         
    }
 
-   .cover{
-    width: 100%;
-    height: 90%;
-  }
+    .cover{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+        height:70%;
+        padding: 0 !important;
+        border: 1px solid red;
+    }
 
 
 }

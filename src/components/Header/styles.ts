@@ -5,7 +5,7 @@ export const HeaderNav = styled.nav`
     width: 95%;
     max-width: 1220px;
     margin: 0 auto;
-    height: 8vh;
+    height: 9vh;
     padding: 1rem 0;
 
     display: grid;
