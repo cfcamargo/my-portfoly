@@ -81,14 +81,14 @@ export const ContentBanner = styled.div`
           gap:2rem;
           
           h1{
-            font-size: 1.2rem;
+            font-size: 2.5rem;
             text-align: center;
             
           }
 
           p{
             
-            font-size: .7rem;
+            font-size: 2rem;
             margin: 0 auto;
             
             text-align: center;
@@ -96,7 +96,7 @@ export const ContentBanner = styled.div`
           }
 
           a{
-            padding: .7rem 3rem;
+            padding: .8rem 3rem;
             border: 2px solid #FF4A57;
             border-radius: 5px;
             transition: .3s ease-in;
