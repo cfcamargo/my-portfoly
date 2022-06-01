@@ -65,7 +65,7 @@ export function Contact() {
 
       <ContactLinks>
 
-        <a href="mailto:contato@camargodev.com.br"><img src={mailIcon} alt="Icone de uma carta, simbolizando email" /> contato@camargodev.com.br</a>
+        <a className="email-link" href="mailto:contato@camargodev.com.br"><img src={mailIcon} alt="Icone de uma carta, simbolizando email" /> contato@camargodev.com.br</a>
 
         <div className="social-icons-links">
           <a href="https://github.com/cfcamargo"><img src={githubIcon} alt="Icone do github" /></a>

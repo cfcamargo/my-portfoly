@@ -120,7 +120,6 @@ export const ContentBanner = styled.div`
         width: 100%;
         height:70%;
         padding: 0 !important;
-        border: 1px solid red;
     }
 
 

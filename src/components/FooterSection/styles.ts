@@ -46,4 +46,41 @@ export const Container = styled.footer`
   }
 
 
+  @media screen and (max-width:768px){
+       display: grid;
+       justify-content: center;
+       align-items: center;
+       gap: 2rem;
+
+      .content{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+       .footer-description{
+        
+         p{
+           font-size: 1.5rem;
+         }
+         span{
+           font-size: 1rem;
+          
+           margin: 0 auto;
+         }
+       }
+
+      }
+
+      .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+          margin: 0 auto;
+        }
+      }
+
+  }
+
+
 `

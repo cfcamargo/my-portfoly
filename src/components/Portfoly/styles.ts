@@ -28,12 +28,23 @@ export const PortfolyHeader = styled.div`
       p{
           text-align: center;
           color: white;
+          font-size: 1rem;
           
           font-family: 'Fredoka', sans-serif;
           max-width: 800px;
           width: 80%;
 
           margin: 2rem auto;
+        }
+
+  @media screen and (max-width:768px){
+          h3{
+            font-size: 2.8rem;
+          }
+
+          p{
+            font-size: 1.4rem;
+          }
         }
 `
 

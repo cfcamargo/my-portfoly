@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Content = styled.p`
 
-    font-size: .9rem !important;
+    font-size: .9rem ;
 
     margin: 0 !important;
 
@@ -13,6 +13,8 @@ export const Content = styled.p`
     }
 
     @media screen and (max-width: 768px){
+
+      
       text-align: center;
     }
 `

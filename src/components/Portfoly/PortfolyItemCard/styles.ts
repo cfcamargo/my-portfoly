@@ -36,7 +36,7 @@ export const Container = styled.div`
         gap: 1rem;
 
         h3{
-          font-size: 1.3rem;
+          font-size: 2.3rem;
           color: var(--color-primary);
           font-family: 'Fredoka One', sans-serif;
         }
@@ -44,7 +44,7 @@ export const Container = styled.div`
         p{
           color: white;
           font-family: 'Fredoka', sans-serif;
-          font-size: .9rem;
+          font-size: 1.4rem;
         }
       }
 
@@ -52,7 +52,7 @@ export const Container = styled.div`
         h4{
           color: var(--color-primary);
           margin-top: 2rem;
-          font-size: 1.2rem;
+          font-size: 1.8rem;
           font-family: 'Fredoka', sans-serif;
         }
 
@@ -80,6 +80,7 @@ export const Container = styled.div`
           width: 100%;
           height: 50px;
           display: grid;
+          font-size: 1.4rem;
 
           justify-content: center;
           align-items: center;
@@ -102,8 +103,48 @@ export const Container = styled.div`
 
     @media screen and (min-width: 768px){
 
+      .content{
+      padding: 2rem 3rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+     
+
+      .project-description{
+      
+        h3{
+          font-size: 1.3rem;
+         
+        }
+
+        p{
+          
+          font-size: 1rem;
+        }
+      }
+
+      .project-tecnologys{
+        h4{
+         
+          font-size: 1.2rem;
+          
+        }
+
+       
+  
+
+        .LinkRepoButton{
+          
+          font-size: 1rem;
+
+      
+        }
+      }
 
 
+
+
+    }
 
       .buttons-links{
         width: 100%;

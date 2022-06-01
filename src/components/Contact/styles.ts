@@ -152,6 +152,44 @@ export const Container = styled.section`
            
           }
         }
+
+
+    @media screen and (max-width: 768px){
+
+      .contact-header{
+            h3{
+              font-size: 2.5rem;
+            }
+
+            p{
+              font-size: 1.4rem;
+            }
+        }
+
+        .contact-form{
+          form{
+            .input-area{ 
+              font-size: 1.4rem;
+
+                input{
+                  font-size: 1.4rem;
+                }
+            }
+
+            .input-text-area{
+
+              font-size: 1.4rem;
+                textarea {
+                    font-size: 1.4rem;
+                  }
+                h4{
+                  margin-bottom: 1rem;
+                }
+            }    
+          }
+        }
+
+    }
         
 
 `
@@ -206,6 +244,12 @@ export const ContactLinks = styled.div`
       gap: 1rem;
      
       justify-content: center;
+
+
+      .email-link{
+        font-size: 1.4rem;
+        margin-bottom: 2rem;
+      }
 
       .social-icons-links{
         margin: 0 auto;

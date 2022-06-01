@@ -69,7 +69,18 @@ export const Container = styled.div`
     padding: 6rem 1rem;
 
   
+    .content{
+      p{
+        font-size: 1.5rem;
+      }
 
+      ul{
+      li{
+        font-size: 1.4rem;
+      }
+    }
+    }
+    
 
     .cover{
       min-height: 800px;

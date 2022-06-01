@@ -34,6 +34,17 @@ export const Header = styled.div`
       margin-bottom: 2rem;
     }
 
+
+    @media screen and (max-width: 768px){
+
+      h3{
+        font-size: 2.8rem;
+      }
+      p{
+        font-size: 1.4rem;
+      }
+    }
+
 `
 
 
@@ -67,8 +78,7 @@ export const SkillsBody = styled.div`
 
     .skill-cover{
       width: 100%; 
-      height: 60%;
-      border: 1px solid red;
+      height: 90%;
      
     }
   
