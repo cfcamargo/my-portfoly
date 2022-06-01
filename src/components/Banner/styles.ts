@@ -87,6 +87,7 @@ export const ContentBanner = styled.div`
           p{
             
             font-size: 1rem;
+            margin: 0;
             
             text-align: center;
             width: 90%;
@@ -110,7 +111,7 @@ export const ContentBanner = styled.div`
 
    .cover{
     width: 100%;
-    height: 400px;
+    height: 90%;
   }
 
 

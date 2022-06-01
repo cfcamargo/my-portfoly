@@ -1,3 +1,5 @@
+@import-normalize;
+
 :root {
   --skillBarTextColor: #ffffff !important;
   --skillBarBgColor: #FF4A57 !important;
@@ -44,4 +46,9 @@ body{
   width: 100%;
   height: 1px;
   background: var(--color-primary);
+}
+
+
+#banner .svg{
+  height: 400px !important;
 }
