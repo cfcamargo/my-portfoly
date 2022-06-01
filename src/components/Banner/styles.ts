@@ -81,6 +81,7 @@ export const ContentBanner = styled.div`
           gap:2rem;
           
           h1{
+            margin-top: 2rem;
             font-size: 2.5rem;
             text-align: center;
             
