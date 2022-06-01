@@ -22,7 +22,7 @@ export function About() {
               Meu primeiro contato com programação foi no ensino médio onde realizei um curso técnico no Instituto Federal de Mato Grosso do Sul, onde pude conhecer HTML, CSS E Javascript.
               Atualmente estou em constante aprendizado buscando sempre melhorar
               minhas habilidades com tais tecnologias.
-              No momento estou estudando Ract JS e tenho ampliado
+              No momento estou estudando React JS e tenho ampliado
               meus conhecimentos e melhorado meus projetos utilizando essa tecnologia fantástica, e com muito entusiasmo estou sempre buscando inovar e aprender.</p>
 
             <ul>
