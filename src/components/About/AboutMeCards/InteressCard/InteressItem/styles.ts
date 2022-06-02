@@ -12,4 +12,9 @@ export const Content = styled.div`
     font-size: 1rem;
 
     font-family: 'Fredoka', sans-serif;
-`
+
+
+    @media (max-width: 768px) {
+        font-size: 1.8rem;
+    }
+ `

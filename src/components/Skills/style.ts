@@ -38,10 +38,10 @@ export const Header = styled.div`
     @media screen and (max-width: 768px){
 
       h3{
-        font-size: 2.8rem;
+        font-size: 2.9rem;
       }
       p{
-        font-size: 1.4rem;
+        font-size: 1.8rem;
       }
     }
 

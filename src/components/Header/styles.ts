@@ -18,8 +18,19 @@ export const HeaderNav = styled.nav`
   }
 
   .navbar-menu-brand{
+
+    display: block;
+    padding: 0 !important;
+    margin: 0 !important;
+
+    a{
+      margin: 0;
+      padding: 0;
+    }
+
+
     img{
-      height: 90%;
+      height: 40px;
     }
   }
 

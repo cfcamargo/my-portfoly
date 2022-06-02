@@ -9,7 +9,7 @@ export const CardContent = styled.div`
 
       h4{
             color: white;
-            font-size: 1.4rem;
+            font-size: 2rem;
             font-family: 'Fredoka One', sans-serif;
             text-align: center;
       }

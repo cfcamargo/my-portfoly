@@ -71,12 +71,12 @@ export const Container = styled.div`
   
     .content{
       p{
-        font-size: 1.5rem;
+        font-size: 1.8rem;
       }
 
       ul{
       li{
-        font-size: 1.4rem;
+        font-size: 1.8rem;
       }
     }
     }

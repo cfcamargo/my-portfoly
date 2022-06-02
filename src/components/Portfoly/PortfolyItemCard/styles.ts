@@ -36,7 +36,8 @@ export const Container = styled.div`
         gap: 1rem;
 
         h3{
-          font-size: 2.5rem;
+          font-size: 2.8rem;
+          margin-bottom: 1rem;
           color: var(--color-primary);
           font-family: 'Fredoka', sans-serif;
           
@@ -45,7 +46,7 @@ export const Container = styled.div`
         p{
           color: white;
           font-family: 'Fredoka', sans-serif;
-          font-size: 1.4rem;
+          font-size: 1.8rem;
         }
       }
 
@@ -53,7 +54,7 @@ export const Container = styled.div`
         h4{
           color: var(--color-primary);
           margin-top: 2rem;
-          font-size: 1.8rem;
+          font-size: 1.9rem;
           font-family: 'Fredoka', sans-serif;
         }
 
@@ -81,7 +82,7 @@ export const Container = styled.div`
           width: 100%;
           height: 50px;
           display: grid;
-          font-size: 1.4rem;
+          font-size: 1.8rem;
 
           justify-content: center;
           align-items: center;
@@ -114,7 +115,7 @@ export const Container = styled.div`
       .project-description{
       
         h3{
-          font-size: 2rem;
+          font-size: 1.5rem;
          
         }
 
@@ -179,6 +180,8 @@ export const Container = styled.div`
           padding: .7rem 2rem;
           width: 200px;
           background-color: none;
+
+          font-size: 1rem !important;
 
           display: none;
           justify-content: center;
