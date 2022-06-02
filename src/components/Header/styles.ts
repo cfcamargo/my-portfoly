@@ -51,7 +51,7 @@ export const HeaderNav = styled.nav`
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      gap: 4rem;
+      gap: 8rem;
       z-index: 9999999999;
 
 

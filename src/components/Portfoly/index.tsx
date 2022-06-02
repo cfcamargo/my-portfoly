@@ -46,7 +46,7 @@ export function Portfoly() {
     },
     {
       cover: beautySalonCoverImg,
-      title: 'BeuatySalon Landing Page',
+      title: 'BeautySalon Landing Page',
       description: 'Este projeto foi realizado durante a NLW Togueter da Rocketseat, o projeto consiste em uma página de um salão de beleza. Pra mim foi muito interessante, pois aprendi alguns conceitos legais, principalmente de acessibilidade, e aprendi a usar bibliotecas de ícones, e até a criar essas bibliotecas usando o IconMon ',
       tecnologias: ['html', 'css', 'js', 'git'],
       repo: 'https://github.com/cfcamargo/nlwtogueter-missionorigin',

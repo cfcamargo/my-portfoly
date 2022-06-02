@@ -36,9 +36,10 @@ export const Container = styled.div`
         gap: 1rem;
 
         h3{
-          font-size: 2.3rem;
+          font-size: 2.5rem;
           color: var(--color-primary);
-          font-family: 'Fredoka One', sans-serif;
+          font-family: 'Fredoka', sans-serif;
+          
         }
 
         p{
@@ -113,7 +114,7 @@ export const Container = styled.div`
       .project-description{
       
         h3{
-          font-size: 1.3rem;
+          font-size: 2rem;
          
         }
 

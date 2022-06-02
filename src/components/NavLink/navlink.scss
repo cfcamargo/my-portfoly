@@ -10,4 +10,12 @@ a{
     color: #FF4A57;
   }
 
+
+  @media screen and (max-width: 768px) {
+
+    font-size: 2rem;
+    padding: 2rem 3rem;
+    
+  }
+
 }
