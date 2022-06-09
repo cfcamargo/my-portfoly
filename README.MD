@@ -2,7 +2,7 @@
 
 # Meu Portfólio
 
-## Experiencia e Tecnologias
+## Experiência e Tecnologias
 
 - Esse é meu primeiro projeto profissional utilizando React, e foi de muito aprendizado pra mim.
 - Além da utilização de react, pude adicionar tipagem com o Typescript e ainda usar Styled Components.
@@ -33,10 +33,10 @@
 - Link do Layout : https://www.figma.com/file/mulUsoSH1eydftKI7aKPx7/Cristian-Camargo-Portfoly?node-id=0%3A1
 
 
-## O projeto
+## O Projeto
 
 - O projeto esta online e pode ser acessado atraves deste link: https://camargodev.com.br
 - O projeto foi hospedado usando os servidores da Hostinger.
-- O Projeto anda recebendo atualizações constantes, para melhorias que estou implementando.
-- Futuramente pretendo mudar o projeto para NextJS.
+- O Projeto recebe atualizações constantes, para melhorias que estou implementando.
+- Nesse projeto enfrentei muitos problemas como bugs na responsividade usando o navegador Safari, problemas para usar a skillsbars, além de precisar aprender a lidar com as bibliotecas externas que foram utilizadas.
 
