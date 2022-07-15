@@ -28,7 +28,7 @@ export const Container = styled.button`
 box-shadow: 0px 0px 36px -7px rgba(0,0,0,0.75);
 
   img{
-    width: 60%;
+    width: 45%;
   }
 
 
